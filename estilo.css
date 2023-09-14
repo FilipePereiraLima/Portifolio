@@ -1,0 +1,67 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    border: 1px solid #808080;
+background-color: blanchedalmond;
+
+    width: 15vw;
+    height: 40vh;
+    border-radius: 10px;
+    
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .img{
+    width: 14vw;
+    height: 18vh;
+    margin-left: 5.8px;
+
+  }
+.head{
+    border: 1px solid;
+    border-radius: 12px;
+    width: 14vw;
+    height: 4vh;
+    margin-top: 10px;
+    margin-left: 6px;
+    
+}
+.card-border{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    width: 16vw;
+    height: 42vh;
+    border-radius: 10px;
+    background-color: black;
+}
+.desc{
+    border: 1px solid black;
+    padding-bottom: 10%;
+    width: 14vw;
+    margin-left: 6px;
+    max-height: 22%;
+    min-height: 22%;
+    line-height: 0.3em; 
+}
+.name-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 14.5vw;
+    height: 3vh;
+}
+#txt{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 2%;
+}
+#txt-desc{
+    max-width: 10vh;
+    white-space: pre-line;
+    margin-top: 10px;
+}
