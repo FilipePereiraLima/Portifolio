@@ -21,6 +21,7 @@ body{
     height: 430px;
     border-radius: 10px;
     background-color: black;
+    margin-top: 1rem;
 
 }
 .card {
@@ -78,4 +79,10 @@ body{
     margin-left: 5px;
     white-space: pre-line;
     margin-top: 10px;
+}
+
+.cardlist{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 30% 30% 30%;
 }
