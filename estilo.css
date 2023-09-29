@@ -24,6 +24,12 @@ body{
     margin-top: 1rem;
 
 }
+
+.card-border:hover{
+    transition: transform 1s;
+    transform: translateX(0) scale(1.2);
+}
+
 .card {
 
     border: 1px solid #808080;
