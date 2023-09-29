@@ -99,3 +99,10 @@ body{
     justify-items: center;
     grid-template-columns: 30% 30% 30%;
 }
+
+#title-cardlist{
+color: white;
+font-size: 4rem;
+display: grid;
+justify-items: center;
+}
